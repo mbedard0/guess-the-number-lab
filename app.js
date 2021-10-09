@@ -17,5 +17,7 @@ const game = {
       this.prevGuesses.push(playerAnswer);
       playerAnswer = this.getGuess()
     }
+    let numGuesses = this.prevGuesses.length;
+    alert(`Congrats! You guessed the number in ${numGuesses} tries.`)
   }
 }
