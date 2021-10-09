@@ -1,1 +1,1 @@
-# dev-environment-lab
+# guess-the-number-lab
